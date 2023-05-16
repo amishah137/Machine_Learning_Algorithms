@@ -1,4 +1,4 @@
-# Machine Learning Algorithm - Decision Trees
+## Machine Learning Algorithm - Decision Trees Notes
 
 ### Basic Assumption of Decision Tree
 There are no such assumptions.
