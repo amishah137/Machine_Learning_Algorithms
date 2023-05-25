@@ -1,7 +1,16 @@
 ## Machine Learning Algorithm - Decision Trees Notes
 
 ### Basic Assumption of Decision Tree
-There are no such assumptions.
+Since the Decision Tree is Non-statistical approach, it makes no assumptions of the training data or prediction residuals; e.g., no distributional, independence, or constant variance assumptions.
+
+However , there are a few Non-Statistical assumptions of the decision tree:
+1. Independence of Features: Decision trees assume that the features used for splitting are independent of each other. If there are dependencies between features, the performance of the tree may be affected.
+2. Feature Relevance: Decision trees assume that the features used for splitting are relevant to the target variable. Irrelevant features may lead to poor tree performance and inaccurate predictions.
+3. In the beginning, the whole training set is considered as the root.
+4. Feature values are preferred to be categorical. If the values are continuous then they are discretized prior to building the model.
+5. Records are distributed recursively on the basis of attribute values.
+6. Order to placing attributes as root or internal node of the tree is done by using some statistical approach.
+
 
 ### Advantages of Decision Tree
 1. Clear Visualization: The algorithm is simple to understand, interpret and
