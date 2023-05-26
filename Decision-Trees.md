@@ -54,3 +54,6 @@ Post Prunning
 • Regression
 – R2,Adjusted R2
 – MSE,RMSE,MAE
+
+## Decision Tree variants
+### ID3
